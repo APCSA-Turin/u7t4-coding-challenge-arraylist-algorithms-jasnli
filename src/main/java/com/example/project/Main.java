@@ -443,10 +443,6 @@ public class Main{
         for (int p = 0; p < numTimes.length; p++) {
             uniqueOcc.add(numTimes[p]);
         }
-        ArrayList<Integer> temp = new ArrayList<>();
-        for (int q = 0; q < numTimes.length; q++) {
-            temp.add(numTimes[q]);
-        }
         removeDuplicates(uniqueOcc);
         for (int k = 0; k < uniqueOcc.size(); k++) {
             if (uniqueOcc.get(k) > biggestNum) {
